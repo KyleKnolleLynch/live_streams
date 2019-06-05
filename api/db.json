@@ -1,0 +1,36 @@
+{
+  "streams": [
+    {
+      "title": "dogs",
+      "description": "dogs and turkeys",
+      "id": 1
+    },
+    {
+      "title": "birds",
+      "description": "birds of the southwest",
+      "id": 2
+    },
+    {
+      "title": "birds",
+      "description": "birds of the northeast",
+      "value": "",
+      "id": 3
+    },
+    {
+      "title": "fish",
+      "description": "fish of the gulf of mexico",
+      "id": 4
+    },
+    {
+      "title": "test stream",
+      "description": "test 1 stream",
+      "id": 5
+    },
+    {
+      "title": "turtles",
+      "description": "water turtles",
+      "value": "",
+      "id": 6
+    }
+  ]
+}
