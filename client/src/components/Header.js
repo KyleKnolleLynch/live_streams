@@ -8,8 +8,8 @@ import Typography from '@material-ui/core/Typography';
 
 const Header = () => {
   return (
-    <header>
-      <AppBar position="static" style={{ backgroundColor: '#ff6e40' }}>
+    <header style={{marginBottom: "5rem"}}>
+      <AppBar style={{ backgroundColor: '#FF7400', position: "absolute", left: "0", top: "0"}}>
         <Toolbar>
           <Typography
             component={Link}
