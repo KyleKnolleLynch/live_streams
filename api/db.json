@@ -1,32 +1,22 @@
 {
   "streams": [
     {
-      "title": "birds",
-      "description": "birds of the southwest",
-      "id": 2
-    },
-    {
-      "title": "birds",
-      "description": "birds of the northeast",
-      "value": "",
-      "id": 3
-    },
-    {
-      "title": "fish",
-      "description": "fish of the gulf of mexico",
-      "id": 4
-    },
-    {
-      "title": "turtles",
-      "description": "water turtles",
-      "value": "",
-      "id": 6
-    },
-    {
       "title": "New Stream",
       "description": "new stream with userid",
       "userId": "102613241118383129978",
       "id": 7
+    },
+    {
+      "title": "Unexpected behavior",
+      "description": "What's the dealio?",
+      "userId": "102613241118383129978",
+      "id": 8
+    },
+    {
+      "title": "Snakes",
+      "description": "Pythons of the World.",
+      "userId": "102613241118383129978",
+      "id": 9
     }
   ]
 }

@@ -21,7 +21,12 @@ class StreamList extends Component {
     if (stream.userId === this.props.currentUserId) {
       return (
         <div>
-          <Button variant="outlined" style={{ color: 'grey' }}>
+          <Button
+            component={Link}
+            to={`/streams/edit/${stream.id}`}
+            variant="outlined"
+            style={{ color: 'grey' }}
+          >
             Edit
             <Create color="action" />
           </Button>
@@ -54,13 +59,14 @@ class StreamList extends Component {
     if (this.props.isSignedIn === true) {
       return (
         <div style={{ textAlign: 'right' }}>
-          <Fab variant="extended" size="small" color="primary">
-            <Link
-              to="/streams/new"
-              style={{ textDecoration: 'none', color: '#fff' }}
-            >
-              Create Stream
-            </Link>
+          <Fab
+            component={Link}
+            to="/streams/new"
+            variant="extended"
+            size="small"
+            color="primary"
+          >
+            Create Stream
           </Fab>
         </div>
       );
