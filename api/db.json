@@ -1,26 +1,20 @@
 {
   "streams": [
     {
-      "title": "New Stream",
-      "description": "new stream with userid",
-      "userId": "102613241118383129978",
-      "id": 7
-    },
-    {
-      "title": "Unexpected behavior",
-      "description": "What's the dealio?",
+      "title": "Testing 123",
+      "description": "This is a test stream again.",
       "userId": "102613241118383129978",
       "id": 8
     },
     {
       "title": "Snakes",
-      "description": "Pythons of the World.",
+      "description": "Pythons of the World, vol. 2.",
       "userId": "102613241118383129978",
       "id": 9
     },
     {
       "title": "Snakes Bustin' Out!",
-      "description": "My snake breaks her cage down and escapes.",
+      "description": "Snakes gone wild.",
       "userId": "102613241118383129978",
       "id": 10
     }
