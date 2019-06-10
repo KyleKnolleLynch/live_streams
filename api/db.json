@@ -1,22 +1,16 @@
 {
   "streams": [
     {
-      "title": "Testing 123",
-      "description": "This is a test stream again.",
+      "title": "Test Stream One",
+      "description": "test test",
       "userId": "102613241118383129978",
-      "id": 8
+      "id": 1
     },
     {
-      "title": "Snakes",
-      "description": "Pythons of the World, vol. 2.",
+      "title": "Test Stream Two",
+      "description": "testing two",
       "userId": "102613241118383129978",
-      "id": 9
-    },
-    {
-      "title": "Snakes Bustin' Out!",
-      "description": "Snakes gone wild.",
-      "userId": "102613241118383129978",
-      "id": 10
+      "id": 2
     }
   ]
 }

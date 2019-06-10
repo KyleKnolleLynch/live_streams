@@ -30,7 +30,11 @@ class StreamList extends Component {
             Edit
             <Create color="action" />
           </Button>
-          <Button variant="outlined" color="secondary">
+          <Button
+            component={Link}
+            to={`/streams/delete/${stream.id}`}
+            variant="outlined" 
+            color="secondary">
             Delete
             <Delete />
           </Button>
