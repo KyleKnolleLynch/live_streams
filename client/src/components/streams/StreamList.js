@@ -33,8 +33,9 @@ class StreamList extends Component {
           <Button
             component={Link}
             to={`/streams/delete/${stream.id}`}
-            variant="outlined" 
-            color="secondary">
+            variant="outlined"
+            color="secondary"
+          >
             Delete
             <Delete />
           </Button>
@@ -46,7 +47,12 @@ class StreamList extends Component {
   renderList() {
     return this.props.streams.map(stream => {
       return (
-        <ListItem key={stream.id} style={{ marginTop: '0.5rem' }}>
+        <ListItem
+          component={Link}
+          to={`/streams/${stream.id}`}
+          key={stream.id}
+          style={{ marginTop: '0.5rem', textDecoration: 'none', color: '#000' }}
+        >
           <VideoLibrary />
           <ListItemText
             primary={stream.title}
