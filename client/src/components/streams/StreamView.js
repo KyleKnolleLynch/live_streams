@@ -21,6 +21,10 @@ class StreamView extends Component {
     this.player.attachMediaElement(this.videoRef.current);
     this.player.load();
   }
+
+  componentWillUnmount() {
+   this.player.destroy();
+  }
   
 
   render() {
